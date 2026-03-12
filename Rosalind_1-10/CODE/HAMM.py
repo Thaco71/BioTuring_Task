@@ -4,7 +4,7 @@ with open('/home/thanhcong/Downloads/BioTuring_Task/Rosalind_1-10/DATA/rosalind_
     t = lines[1].strip()
 
 if len(s) != len(t):
-    print("Two chains are the same length")
+    print("Two chains are not the same length")
 else:
     differ = 0
     for i in range(len(s)):
